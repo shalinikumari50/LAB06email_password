@@ -18,6 +18,10 @@ public class Main {
                 int age = Integer.parseInt(scanner.next());
                 users[i] = new User(name, companyName, age);
             }
+            for (User user : users) {
+                System.out.println(user.getEmail() + " " + user.getPassword());
+            }
+
 
 
         }
