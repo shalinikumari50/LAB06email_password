@@ -14,6 +14,7 @@ public class User {
         this.companyName = companyName;
         this.age = age;
         this.email = createEmail();
+        this.password = createPassword();
 
     }
 
