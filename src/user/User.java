@@ -53,4 +53,14 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String createEmail() {
+        return String.format("%s_%d@%s.com", getName().toLowerCase(), getAge(), getCompanyName().toLowerCase());
+    }
+
+
+
+
+
+
 }
