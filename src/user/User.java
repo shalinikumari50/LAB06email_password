@@ -11,6 +11,7 @@ public class User {
         this.name = name;
         this.companyName = companyName;
         this.age = age;
+        this.email = createEmail();
 
     }
 
