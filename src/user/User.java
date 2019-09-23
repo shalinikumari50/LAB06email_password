@@ -7,6 +7,13 @@ public class User {
     private String email;
     private String password;
 
+    public User(String name, String companyName, int age) {
+        this.name = name;
+        this.companyName = companyName;
+        this.age = age;
+
+    }
+
     public String getName() {
         return name;
     }
